@@ -4,7 +4,7 @@ set -eux
 
 ls /home/linuxbrew/.linuxbrew/bin
 /home/linuxbrew/.linuxbrew/bin/brew fetch --verbose --os sonoma --arch arm grafana 
-tar -xf /home/runner/.cache/Homebrew/downloads/284947cbafa943186e6119c1c1fb8747e934d7ab892be1b2db472d5ba9f5310e--grafana--11.2.0.arm64_sonoma.bottle.tar.gz
+tar -xf /home/runner/.cache/Homebrew/downloads/aa45e071206c88353b93cebeb1c9f0314d208c27f0329cbd04f98ade7b8094e4--grafana--11.2.0.arm64_sonoma.bottle.tar.gz
 
 mkdir -p grafana-v11.2.0/bin
 mv grafana/11.2.0/bin/grafana grafana-v11.2.0/bin/
